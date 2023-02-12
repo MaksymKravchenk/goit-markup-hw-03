@@ -19,93 +19,88 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="container header">
-      <div>
-        <nav class="container-nav">
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-header">
           <a class="logo" href="./index.html"
             ><span class="logo-web">Web</span>Studio</a
           >
           <!-- WebStudio -->
 
-          <ul class="site-nav">
-            <li class="item">
+          <ul class="header-list">
+            <li class="items">
               <a class="header-links current" href="./index.html">Studio</a>
             </li>
-            <li class="item">
+            <li class="items">
               <a class="header-links" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="item"><a class="header-links" href="">Contacts</a></li>
+            <li class="items"><a class="header-links" href="">Contacts</a></li>
           </ul>
-
-          <address>
-            <ul class="contact-nav">
-              <li class="contact-item">
-                <a class="adress-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="item">
-                <a class="adress-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
         </nav>
+        <address class="header-contacts">
+          <ul class="adress-list">
+            <li>
+              <a class="adress-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="adress-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
-
     <main>
       <section class="heroe">
-        <div class="container">
-          <h1 class="heroe-title">Effective Solutions for Your Business</h1>
+        <h1 class="heroe-title">Effective Solutions for Your Business</h1>
 
-          <button class="primary-button" type="button">Order Service</button>
-        </div>
+        <button class="primary-button" type="button">Order Service</button>
       </section>
 
-      <section class="features-section">
-        <div class="container">
-          <h2 class="visually-hidden">features</h2>
-          <ul class="features-list">
-            <li class="item">
-              <h3 class="features-title">Strategy</h3>
-              <p class="features-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
+      <section class="section features-section">
+        <h2 class="visually-hidden">features</h2>
 
-            <li>
-              <h3 class="features-title">Punctuality</h3>
-              <p class="features-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
+        <ul class="features-list">
+          <li>
+            <h3 class="features-title">Strategy</h3>
+            <p class="features-text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
 
-            <li>
-              <h3 class="features-title">Diligence</h3>
-              <p class="features-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li>
-              <h3 class="features-title">Technologies</h3>
-              <p class="features-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+
+          <li>
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Technologies</h3>
+            <p class="features-text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
       </section>
 
-      <section class="what-are-we-doing-section">
+      <section class="section what-are-we-doing-section">
+        <h2 class="secondary-title">What are we doing</h2>
         <div class="container">
-          <h2 class="secondary-title">What are we doing</h2>
-          <ul class="foto">
+          <ul class="foto-list">
             <li class="what-are-we-doing-foto">
               <img src="./images/monitor.jpg" alt="monitor" width="360" />
             </li>
@@ -127,12 +122,13 @@
         </div>
       </section>
 
-      <section class="team-section">
-        <div class="container">
-          <h2 class="team-title">Our Team</h2>
-          <ul>
-            <li class="team-list">
+      <section class="section team-section">
+        <h2 class="team-title">Our Team</h2>
+        <div class="container team-container">
+          <ul class="team-list">
+            <li class="team-item">
               <img
+                class="foto-team"
                 src="./images/Mark_Guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -140,13 +136,20 @@
               <h3 class="name-team">Mark Guerrero</h3>
               <p class="team-position">Product Designer</p>
             </li>
-            <li class="team-list">
-              <img src="./images/Tom_Ford.jpg" alt="Tom Ford" width="264" />
+            <li class="team-item">
+              <img
+                class="foto-team"
+                class="foto-team"
+                src="./images/Tom_Ford.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <h3 class="name-team">Tom Ford</h3>
               <p class="team-position">Frontend Developer</p>
             </li>
-            <li class="team-list">
+            <li class="team-item">
               <img
+                class="foto-team"
                 src="./images/Camila_Garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -155,8 +158,9 @@
               <p class="team-position">Marketing</p>
             </li>
 
-            <li class="team-list">
+            <li class="team-item">
               <img
+                class="foto-team"
                 src="./images/Daniel_Wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
