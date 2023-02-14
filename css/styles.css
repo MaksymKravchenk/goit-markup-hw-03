@@ -30,6 +30,7 @@ ul {
   h5,
  h6 {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -80,7 +81,7 @@ body{
 
 
 .header {
-  border-bottom: 1px solid transparent ;
+  border-bottom: 1px solid #E7E9FC ;
 }
 
 .logo {
@@ -457,6 +458,7 @@ padding-top: 0;
             line-height: 1.2;
             letter-spacing: 0.02em;
             text-decoration: none;
+            margin-bottom: 8px;
            
           
             
@@ -467,7 +469,7 @@ padding-top: 0;
           text-decoration: none;
           letter-spacing: 0.02em;
           line-height: 1.5;
-          margin-bottom: 8px;
+          
           
            
         }
